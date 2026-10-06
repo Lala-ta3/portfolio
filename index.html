@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tsoriya | Software Engineering Student</title>
+    <meta
+      name="description"
+      content="Tsoriya is a Software Engineering student interested in technology, coffee farming, and building things for the web."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%235F7058'/%3E%3Ctext x='32' y='44' font-size='36' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23F8F5EE'%3ET%3C/text%3E%3C/svg%3E"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nunito:wght@400;600&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand logo" href="#top">Tsoriya</a>
+          <ul class="navbar-nav flex-row ms-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="top" class="hero">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-12 col-lg-7 text-center text-lg-start">
+              <p class="hi mb-0">Hi, I’m</p>
+              <h1 class="display-1 fw-bold">Tsoriya.</h1>
+              <p class="lead mt-4 mx-auto mx-lg-0">
+                I’m a Software Engineering student interested in technology,
+                coffee farming, and building things for the web.
+              </p>
+              <a
+                href="#projects"
+                class="btn btn-sage btn-lg rounded-pill px-4 mt-3"
+              >
+                See my projects
+              </a>
+            </div>
+
+            <div class="col-12 col-lg-5 d-flex justify-content-center">
+              <img
+                src="./Images/photo.jpg"
+                class="photo rounded-circle"
+                alt="Picture of Tsoriya"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT + LEARNING -->
+      <section id="about" class="py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6">
+              <div
+                class="info-card h-100 p-4 p-md-5 d-flex flex-column flex-sm-row align-items-sm-center gap-4"
+              >
+                <svg
+                  class="coffee-plant flex-shrink-0"
+                  viewBox="0 0 110 200"
+                  aria-hidden="true"
+                >
+                  <defs>
+                    <path
+                      id="leaf"
+                      d="M0 0C12-14 38-14 52 0C38 14 12 14 0 0ZM0 0H52"
+                    />
+                  </defs>
+                  <path
+                    d="M50 192Q55 120 62 18"
+                    fill="none"
+                    stroke="#8B5E4E"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                  <g
+                    fill="#6B8E5A"
+                    stroke="#3F5A3A"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  >
+                    <use
+                      href="#leaf"
+                      transform="translate(52 160) rotate(-25)"
+                    />
+                    <use
+                      href="#leaf"
+                      transform="translate(52 130) rotate(205)"
+                    />
+                    <use
+                      href="#leaf"
+                      transform="translate(55 100) rotate(-25)"
+                    />
+                    <use
+                      href="#leaf"
+                      transform="translate(56 72) rotate(205)"
+                    />
+                    <use
+                      href="#leaf"
+                      transform="translate(59 45) rotate(-30)"
+                    />
+                    <use
+                      href="#leaf"
+                      transform="translate(62 20) rotate(-80)"
+                    />
+                  </g>
+                  <g fill="#C0392B" stroke="#8E2A20" stroke-width="1.5">
+                    <circle cx="58" cy="148" r="6" />
+                    <circle cx="65" cy="141" r="6" />
+                    <circle cx="46" cy="118" r="5.5" />
+                    <circle cx="60" cy="90" r="6" />
+                    <circle cx="52" cy="84" r="5.5" />
+                  </g>
+                </svg>
+
+                <div>
+                  <span class="bar mb-3"></span>
+                  <h2 class="h4 fw-bold mb-3">A Little About Me</h2>
+                  <p class="mb-0">
+                    I’m interested in technology and coffee farming, and I enjoy
+                    learning, writing, and exploring new ideas. I’m currently
+                    building my skills in web development and looking for ways
+                    to connect technology with things I care about.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div
+                class="info-card h-100 p-4 p-md-5 d-flex flex-column justify-content-center"
+              >
+                <div>
+                  <span class="bar mb-3"></span>
+                  <h2 class="h4 fw-bold mb-4">What I’m Learning</h2>
+                  <ul class="list-unstyled d-flex flex-wrap gap-3 mb-0">
+                    <li class="skill rounded-pill px-4 py-2">HTML</li>
+                    <li class="skill rounded-pill px-4 py-2">CSS</li>
+                    <li class="skill rounded-pill px-4 py-2">Bootstrap</li>
+                    <li class="skill rounded-pill px-4 py-2">
+                      Responsive Design
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <span class="bar mb-4"></span>
+            <h2 class="fw-bold">Things I’ve Built</h2>
+            <p class="section-sub mb-0">
+              Projects from my web development course.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-md-6">
+              <div class="card project-card h-100">
+                <img
+                  src="./Images/apple.png"
+                  class="card-img-top project-img"
+                  alt="Screenshot of my Apple homepage project"
+                />
+                <div class="card-body p-4 d-flex flex-column">
+                  <h3 class="h5 fw-bold">Apple Homepage</h3>
+                  <p>
+                    A responsive Apple homepage built with HTML, CSS and
+                    Bootstrap.
+                  </p>
+                  <div>
+                    <span class="badge rounded-pill tag">HTML</span>
+                    <span class="badge rounded-pill tag">CSS</span>
+                    <span class="badge rounded-pill tag">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="card project-card h-100">
+                <img
+                  src="./Images/puppy.png"
+                  class="card-img-top project-img"
+                  alt="Screenshot of my Puppy project"
+                />
+                <div class="card-body p-4 d-flex flex-column">
+                  <h3 class="h5 fw-bold">Puppy Project</h3>
+                  <p>
+                    A simple webpage about puppies, built using HTML and CSS.
+                  </p>
+                  <div>
+                    <span class="badge rounded-pill tag">HTML</span>
+                    <span class="badge rounded-pill tag">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div
+            class="info-card p-4 p-md-5 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4"
+          >
+            <div>
+              <span class="bar mb-3"></span>
+              <h2 class="h4 fw-bold mb-2">Let’s Connect</h2>
+              <p class="mb-2">Have a question or want to say hello?</p>
+              <a href="mailto:tsoriyatesfaye@gmail.com" class="project-link"
+                >tsoriyatesfaye@gmail.com</a
+              >
+            </div>
+            <div class="d-flex flex-wrap gap-3">
+              <a
+                href="mailto:tsoriyatesfaye@gmail.com"
+                class="btn btn-sage rounded-pill px-4"
+                >Email me</a
+              >
+              <a
+                href="https://github.com/Lala-ta3"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-ghost rounded-pill px-4"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-4">
+      <div
+        class="container border-top pt-4 d-flex flex-column flex-sm-row justify-content-between gap-2"
+      >
+        <p class="small mb-0">© 2026 Tsoriya</p>
+        <p class="small mb-0 note">Built with curiosity</p>
+      </div>
+    </footer>
+  </body>
+</html>

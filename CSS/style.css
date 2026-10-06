@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #f8f5ee;
+  font-family: "Nunito", sans-serif;
+  color: #34464e;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: #f8f5ee;
+}
+
+.logo {
+  font-family: "Patrick Hand", cursive;
+  font-size: 2rem;
+  color: #1f3039;
+}
+
+.nav-link {
+  color: #1f3039;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #5f7058;
+}
+
+/* ---------- Headings ---------- */
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #1f3039;
+}
+
+.section-sub {
+  color: #4f5f58;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  padding-block: 5rem;
+}
+
+.hi {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #5f7058;
+}
+
+.lead {
+  max-width: 30ch;
+  color: #1f3039;
+}
+
+/* Round photo (images/photo.jpg) */
+.photo {
+  width: min(100%, 360px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 0 0 1px #e3e6da;
+}
+
+footer .note {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.1rem;
+  color: #4f5f58;
+}
+
+/* ---------- Buttons ---------- */
+.btn-sage {
+  background-color: #5f7058;
+  color: #fff;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-sage:hover {
+  background-color: #4e5e48;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  border: 2px solid #5f7058;
+  color: #4e5e48;
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.btn-ghost:hover {
+  background-color: #dfe4d7;
+  color: #1f3039;
+  transform: translateY(-2px);
+}
+
+/* ---------- Accent bar ---------- */
+.bar {
+  display: block;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #5f7058;
+  margin-inline: auto;
+}
+
+/* Bar sits at the left inside left-aligned cards */
+.info-card .bar {
+  margin-inline: 0;
+}
+
+/* ---------- About / Contact cards ---------- */
+.info-card {
+  background-color: #fff;
+  border: 1px solid #e3e6da;
+  border-radius: 20px;
+}
+
+.coffee-plant {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .coffee-plant {
+    width: 64px;
+  }
+}
+
+.skill {
+  background-color: #dfe4d7;
+  color: #1f3039;
+  font-weight: 600;
+}
+
+/* ---------- Projects ---------- */
+.project-card {
+  border: 1px solid #e3e6da;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.tag {
+  background-color: #dfe4d7;
+  color: #1f3039;
+  font-weight: 600;
+}
+
+.project-link {
+  color: #4e5e48;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  color: #4f5f58;
+}
+
+/* ---------- Hover motion ---------- */
+.project-card,
+.skill {
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover,
+.skill:hover {
+  transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    transition: none !important;
+  }
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f5ee;
+  opacity: 0.95 ;
+}
